@@ -1,0 +1,33 @@
+#Nom
+name: "microtoxR.com"
+#Titre de la page à afficher
+title: "Home"
+#URL du site déployé par github
+base_url: "https://bbellier.github.io/microtoxR_package/" 
+#URL du répertoire github
+repository_url: "https://github.com/bbellier/microtoxR.com" 
+#Icone du site web
+favicon: icons/logo.ico
+#Fichier où déposer les documents créés lors de la création du site
+output_dir: "docs" 
+#Licence
+creative_commons: CC BY-SA
+#Thème à utiliser pour le site
+theme: style/style_microtoxR.css 
+#Barre de navigation 
+navbar: 
+  search: false
+  #Afficher à gauche
+  left:
+    #Page(s) à afficher
+    - text: "About" #Texte à afficher
+      href: about.html #Référence html à utiliser
+  right:
+    - text: "Github"
+      href: "https://github.com/bbellier/microtoxR_package"
+#Style à afficher en sortie      
+output: 
+  #Article distill
+  distill::distill_article:
+    #Style à utiliser
+    css: style/style_microtoxR.css

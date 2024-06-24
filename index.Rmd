@@ -1,0 +1,25 @@
+---
+#Titre de la page à afficher
+title: "Welcome to the microtoxR website !"
+#Image à afficher
+image: "images/logo.png"
+#Liens utiles
+links:
+    #Github
+  - label: 'Github <i class="fab fa-github fa-lg"></i> package'
+    url: "https://github.com/bbellier/microtoxR_package"
+    #Researchgate
+  - label: "Le Picard, C."
+    url: "https://www.researchgate.net/profile/Coralie-Le-Picard"
+    #Researchgate
+  - label: "Bellier, B."
+    url: "https://www.researchgate.net/profile/Benjamin-Bellier"
+#Sortie
+output:
+  #Utilisation du template "trestles" du package "postcards"
+  postcards::trestles
+#Article distill
+site: distill::distill_website
+---
+
+This website is under construction..
